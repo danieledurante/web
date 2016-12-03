@@ -817,7 +817,7 @@ form label {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.col-feature-9, .col-feature-3 {
+.col-feature-9, .col-feature-3, .col-feature-3-op {
   float: left;
   padding: 6em 0;
 }
@@ -838,18 +838,37 @@ form label {
   }
 }
 
-.col-feature-3 {
+.col-feature-3-op {
   width: 25%;
-  background: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0.1;
+  filter:alpha(opacity=40); 
   background-size: cover;
   background-position: center center;
   position: relative;
 }
+
+.col-feature-3 {
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0.2);
+   background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+
 @media screen and (max-width: 992px) {
   .col-feature-3 {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .col-feature-3-op {
+    width: 100%;
+  }
+}
+
 
 .feature-image {
   width: 128%;
