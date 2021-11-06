@@ -1443,8 +1443,8 @@ ul.pagination {
   overflow-x: auto; }
 
 table {
-  margin: 0 0 2em 0;
-  width: 100%; }
+  margin: 0 0 2em 0em;
+  width: 95%; }
   table tbody tr {
     border: solid 1px rgba(210, 215, 217, 0.75);
     border-left: 0;
@@ -1982,10 +1982,10 @@ button,
       font-style: normal;
       font-variant: normal;
       text-rendering: auto;
-      line-height: 1;
+      line-height: 0;
       text-transform: none !important;
       font-family: 'Font Awesome 5 Free';
-      font-weight: 900; }
+      font-weight: 0; }
     #sidebar .toggle:before {
       content: '\f0c9';
       font-size: 2rem;
