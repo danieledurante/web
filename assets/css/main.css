@@ -201,6 +201,10 @@ code {
   margin: 0 0.25em;
   padding: 0.25em 0.65em; }
 
+.adjust-line-height {
+  line-height: 1em;
+}
+
 pre {
   -webkit-overflow-scrolling: touch;
   font-family: "Courier New", monospace;
